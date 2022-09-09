@@ -8,7 +8,7 @@ const Nogales = () => {
   const TOKEN = import.meta.env.VITE_TOKEN_JWT
 
   const FetchPost = async () => {
-    const url = "https://screensapi.azurewebsites.net/postsCompanies?company=nogales";
+    const url = "https://pantallas.onrender.compostsCompanies?company=nogales";
 
     const respuesta = await axios.get(url,{
       headers: {

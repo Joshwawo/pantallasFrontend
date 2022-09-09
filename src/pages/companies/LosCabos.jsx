@@ -9,7 +9,7 @@ const LosCabos = () => {
 
 
   const FetchPost = async () => {
-    const url = "https://screensapi.azurewebsites.net/postsCompanies?company=loscabos";
+    const url = "https://pantallas.onrender.com/postsCompanies?company=loscabos";
     
 
     const respuesta = await axios.get(url,{

@@ -8,7 +8,7 @@ const Mexicali = () => {
   const TOKEN = import.meta.env.VITE_TOKEN_JWT
 
   const FetchPost = async () => {
-    const url = "https://screensapi.azurewebsites.net/postsCompanies?company=mexicali";
+    const url = "https://pantallas.onrender.com/postsCompanies?company=mexicali";
 
     const respuesta = await axios.get(url,{
       headers: {

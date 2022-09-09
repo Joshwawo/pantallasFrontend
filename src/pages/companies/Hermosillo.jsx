@@ -11,7 +11,7 @@ const Hermosillo = () => {
 
   const FetchPost = async () => {
     // const url = "http://localhost:3001/postsCompanies?company=hermosillo";
-    const url = "https://screensapi.azurewebsites.net/postsCompanies?company=hermosillo"
+    const url = "https://pantallas.onrender.com/postsCompanies?company=hermosillo"
 
 
     const respuesta = await axios.get(url,{

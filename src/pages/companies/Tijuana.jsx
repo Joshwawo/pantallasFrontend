@@ -8,7 +8,7 @@ const Tijuana = () => {
   const TOKEN = import.meta.env.VITE_TOKEN_JWT
 
   const FetchPost = async () => {
-    const url = "https://screensapi.azurewebsites.net/postsCompanies?company=tijuana";
+    const url = "https://pantallas.onrender.com/postsCompanies?company=tijuana";
 
     const respuesta = await axios.get(url,{
       headers:{
