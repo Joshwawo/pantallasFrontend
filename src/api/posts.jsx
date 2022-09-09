@@ -3,7 +3,8 @@ import axios from "axios";
 
 // const url =
 // let url = "http://localhost:3001";
-const url = "https://screensapi.azurewebsites.net"
+// const url = "https://screensapi.azurewebsites.net"
+const url = "https://pantallas.onrender.com/"
 
 
 const TOKEN = import.meta.env.VITE_TOKEN_JWT
